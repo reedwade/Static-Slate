@@ -1,0 +1,11 @@
+
+Download slate.html and load in your html5 web browser.
+
+
+Random notes--
+#http://www.soundjay.com/censor-beep-sound-effect.html
+
+data_uri = open("censor-beep-1.wav", "rb").read().encode("base64").replace("\n", "")
+print "data:audio/wave;base64,",
+print data_uri
+
